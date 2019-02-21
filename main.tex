@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Guillaume} % Your first name
+\familyname{Corlouer} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Sackler center for consciousness science}{University of Sussex}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{gc349@sussex.ac.uk}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+\quote{PhD candidate in informatics passionate about AI, maths and cognitive neuroscience}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\maketitle
+\section{Academic Training}
+% pour votre cursus scolaire
+\cventry{2016}{Master in fundamental mathematics}{Universit\'e Paris Sud XI}{Orsay}{}{Specialisation : algebraic geometry, number theory, geometric representation theory.}
+\cventry{2014}{Master in theoretical physics}{Ecole normale sup\'erieure}{Paris}{}{Specialisation : quantum field theory, general relativity, statistical physics, mathematical physics.}
+\cventry{2013}{Bachelor of science 4th year in fundamental physics, Erasmus}{Imperial College London}{}{}{Honours : \textbf{very good}.}
+\cventry{2012}{Bachelor of science in fundamental physics}{Universit\'e Paris Sud XI}{Orsay}{}{Honours : \textbf{very good} (\textbf{1st}).}
+\cventry{2009-2011}{Preparatory Years}{Lyc\'ee de Kerichen}{Brest}{}{Intensive preparation in undergraduate mathematics, physics and chemistry for competitive examination to the \textit{Grandes \'Ecoles}.}
+%\cventry{2008--2011}{Classes préparatoires aux grandes écoles section physique chimie}{Lycée de Kerichen}{Brest}{}{admissibilité aux CCP, TPE .}
+%-----Research experience, internships------%
+\section{Research}
+\cventry{09/2018-}{PhD candidate in computer science}{Sackler center for consciousness science}{Sussex university}{Brighton}{\textbf{Title} : \emph{Causal information flow in the Cortex}\\One goal of the PhD  is to model the causal flow of information between time series coming from ECOG of epileptic patients using techniques such as Granger Causality. We try to model the time series using multivariate autoregressive modeling, state space modeling and deep learning architectures such as convolutional neural network with attention mechanisms or LSTM network. \\Supervised by Lionel Barnett and Anil Seth.}
+\cventry{09/16-02/2018 }{PhD candidate in fundamental mathematics}{Laboratoire de math\'emathiques d'Orsay}{Universit\'e Paris Sud XI}{Orsay}{\textbf{Title} : \emph{Counting indecomposable principal bundles on smooth projective curve over a finite field}\\The goal of the PhD was to generalise the derivation of the Kac polynomial of indecomposable vector bundles to indecomposable principal bundles on a smooth projective curve over some finite field. It involved the construction of a moduli space whose geometric points correspond to the isomorphism classes of principal bundles. One can try to stratify the moduli space and compute the volume of the strata with the language of Hall algebras to count the geometric points of the moduli space.  In order to make the problem simpler, I reduced it to the particular case of symplectic or orthogonal quivers whose reductive groups preserve some non degenerate bilinear form inducing a structure of duality to get closer to the case of vector bundles. I dropped out to change my PhD topic\\Supervised by Olivier Schiffmann.}
+\cventry{03/16-06/16}{Master thesis}{Laboratoire de math\'emathiques d'Orsay}{Universit\'e Paris Sud XI}{Orsay}{\textbf{Title :} \emph{Hall algebra of coherent sheaves over the projective line}\\ I studied an explicit isomorphism between the positive part of the quantum enveloping algebra of the affine Lie algebra $sl_2$ and the Hall algebra of coherent sheaves over the projective line. I learned about quivers, hereditary categories, Hall algebras, Kac-Moody Lie algebras and their quantum variant.\\Supervised by Olivier Schiffmann.}
+\cventry{01/13-03/14}{Master thesis}{Laboratoire de physique th\'eorique et mod\`eles satistiques}{Universit\'e Paris Sud XI}{}{\textbf{Title :} \emph{Exactly solvable spin chains and their equivalent vertex model in statistical physics}\\ I learned about the Yang-Baxter equation, the algebraic Bethe ansatz, how to compute exact correlation functions using the inverse quantum scattering method and I have been introduced to the theory of quantum groups.\\Supervised by V\'eronique Terras.}
+\cventry{10/12-05/13}{BSc research project}{Imperial College}{London}{}{\textbf{Title} : \emph{Atoms and photons : their interaction dynamics.}\\ I had to understand the interactions of two states level atoms with photons in a LASER cavity in light of the Jaynes-Cummings model and use it to understand an atomic interferomety experiment built by Serge Haroche.\\Supervised by Myungshik Kim.}
+\cventry{05/12-07/12}{Bachelor thesis}{Laboratoire Aim\'e Cotton}{Orsay}{}{\textbf{Title} : \emph{Optical tweezers.}\\I trapped nanometric particles using the orbital angular momentum of a Laguerre-Gauss LASER beams generated by holography.\\Supervised by Jean Pierre Galaup.}
+%---------------------Seminars, scools, comferences----------------------
+\section{Conferences}
+\cventry{10/17, 10/18}{Effective Altruism Global}{Imperial College}{London}{}{EA Global is the annual conference of Effective Altruism.}
+\cventry{04/17}{British Isle Graduate Workshop}{}{}{Isle of Wight}{Higgs bundles, algebraic and differential geometric perspectives.}
+\cventry{02/16-05/16}{Master student seminar}{Laboratoire de math\'ematiques d'Orsay}{Universit\'e Paris Sud XI}{Orsay}{Geometric constructions in representation theory. Realisation of the symmetric group algebra within the Borel-Moore homology of a Steinberg variety. I gave talks on Lie algebras, the Springer resolution and a construction of a canonical isomorphism between the algebra of the symmetric group and the Borel-Moore homology of a Steinberg variety.}
+\cventry{04/2015}{CIMPA School}{Universidade de Cabo Verde}{Cabo Verde}{}{Algebraic structures and application in number theory and cryptography \\}
+%--------Teaching experience----------------%
+\section{Teaching}
+\cventry{2017}{Instructor}{Universit\'e Paris-Sud XI}{Orsay}{Analysis and Linear Algebra}{50 hours of teaching to second year undergraduates. We went through Taylor series, uniform and normal convergence, reduction of endomorphisms, 2D and 3D isometries.}
+\cventry{2016}{Instructor}{Universit\'e Paris-Sud XI}{Orsay}{Linear Algebra}{50 hours of teaching to first year undergraduates. We went through the Gauss algorithm, systems of linear equations, matrices and linear applications and the rank theorem.}
+\cventry{08/14-06/15}{Tutor}{African institute of mathematical sciences}{Senegal}{Mbour}{A one year job as a tutor to assist professors teaching mathematics, physics and computer science. The level of the courses varied between bachelor and graduate degree, they were intense (about 30 hours per three weeks) to allow the students to explore various areas of science and build basic knowledge to go into strong Masters programs or PhDs.\\
+\emph{Courses taught}: Linear algebra and elementary logic.\\ \emph{Tutoring}: Topology and functional analysis, differential calculus, primality testing, quantum mechanics, statistical physics, relativity, graph theory, advanced probabilities. I've also co-supervised research projects in probability, cryptography, complex analysis and physics.}
+%-----------Skills--------%
+\section{Computer skills}
+\cvitem{Languages and Framework}{I write my research in \LaTeX. I am working daily with Matlab to perform Granger Causality on time series and work with Python and Pytorch framework when I apply deep learning on datasets.}
+%\cvitem{Software}{\LaTeX, Python, Matlab}
+%-------------Interests---------%
+\section{Other activities}
+\cvitem{Altruism}{Active member of the Effective Altruism movement that aims at doing good with a rational and evidence based approach. I am currently helping to grow the EA community in France and co-organising EA Sussex society.}
+\cvitem{Self-learning}{Would-be polymath.}
+\cvitem{AI safety}{I organised a talk with Stuart Russell as a speaker in June 2018 on Human-compatible AI \url{https://youtu.be/aYAFwABJ4DQ}. In 2018 I was a very active member of the AI safety Paris group, we met weekly to discuss problems in AI safety. }
+\cvitem{Sports}{Running, hiking, dancing, table tennis}
+ \end{document}
